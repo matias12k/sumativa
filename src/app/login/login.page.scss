@@ -1,0 +1,47 @@
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F8F8; /* Color de fondo suave */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.login-form {
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  background-color: #EFEFEF; /* Color de fondo del formulario */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.login-form ion-item {
+  --ion-color-base: #333333; /* Color de texto en los campos de entrada */
+}
+
+.login-button {
+  --background: #FF4081; /* Color de fondo principal */
+  --background-hover: #D81B60; /* Color de fondo al pasar el cursor */
+  --background-activated: #AA1155; /* Color de fondo al presionar */
+  --color: #FFFFFF; /* Color de texto principal */
+  --color-hover: #FFFFFF; /* Color de texto al pasar el cursor */
+  --color-activated: #FFFFFF; /* Color de texto al presionar */
+  --border-radius: 999px; /* Puntas del botón curvas */
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-link a {
+  color: #2979e4; /* Color del enlace de registro */
+}

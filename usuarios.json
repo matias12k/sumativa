@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "matias",
+      "email": "prueba@duocuc.cl",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "name": "juan",
+      "email": "hola@duocuc.cl",
+      "password": "prueba123"
+    },
+    {
+      "name": "roberto",
+      "email": "ejemplo@gmail.com",
+      "password": "Hola12345",
+      "id": 3
+    },
+    {
+      "name": "maria",
+      "email": "maria@gmai.com",
+      "password": "123456789",
+      "id": 4
+    }
+  ]
+}

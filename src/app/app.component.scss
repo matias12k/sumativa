@@ -1,0 +1,15 @@
+ion-header {
+    ion-toolbar {
+      --background: #f8f8f8;
+      --color: #333;
+    }
+  }
+  
+  ion-content {
+    ion-list {
+      ion-item {
+        --ion-text-color: #666;
+      }
+    }
+  }
+  

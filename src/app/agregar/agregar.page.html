@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Agregar</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button text="Atras"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input type="text" name="txNombre" [(ngModel)]="newUsuario.name" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" name="txEmail" [(ngModel)]="newUsuario.email" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password" name="txContraseña" [(ngModel)]="newUsuario.password" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-button (click)="crearUsuario()" expand="block" color="success">Agregar</ion-button>
+    </ion-item>
+  </form>
+</ion-content>

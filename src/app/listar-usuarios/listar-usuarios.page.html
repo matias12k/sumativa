@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Lista</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/agregar">Agregar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let u of usuarios; let indexArray = index" [routerLink]="['/detalle-usuario', u.id]"> 
+      <ion-label>{{ u.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
+
